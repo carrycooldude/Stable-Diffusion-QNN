@@ -2,6 +2,17 @@
 
 This repository provides a high-performance, optimized implementation of Stable Diffusion v2.1 designed specifically for Windows ARM64 devices equipped with the Qualcomm Snapdragon X Elite processor.
 
+## Sample Output
+
+The following image was generated locally on a Snapdragon X Elite using this pipeline:
+
+**Prompt**: "A breathtaking mountain landscape with a crystalline lake at sunset, high detail, 4k"  
+**Resolution**: 512x512  
+**Steps**: 20  
+**Device**: Qualcomm Hexagon NPU (QNN HTP)
+
+![Sample Output](assets/demo.png)
+
 ## Architecture Overview
 
 The pipeline is implemented using a modular, PyTorch-free architecture to bypass dependency conflicts on Windows ARM64 and maximize hardware utilization via the ONNX Runtime QNN Execution Provider.
