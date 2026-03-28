@@ -82,6 +82,10 @@ python run_inference.py --prompt "A majestic lion in the savanna, cinematic ligh
     - `utils.py`: Quantization and image processing utilities.
 - `models/`: Storage for precompiled Qualcomm-optimized ONNX models.
 
+
+https://github.com/user-attachments/assets/8a2fdcd8-ef2d-4670-bad2-0deb4a84b55f
+
+
 ## Credits
 
 Models optimized via Qualcomm AI Hub. Tokenizer provided by OpenAI CLIP.
